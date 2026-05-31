@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width:100%;
+    padding:10px 70px;
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    align-items:center;
+    gap:55px;
+    cursor: pointer;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:700;
+}
+
+/* CONTACT DESIGN */
+
+.contact{
+    position:relative;
+   cursor: pointer;
+    padding:10px 42px;
+
+    background:#303033;
+
+    clip-path:polygon(
+        10% 0%,
+        100% 0%,
+        88% 100%,
+        0% 100%
+    );
+
+    overflow:visible;
+    z-index:1;
+}
+
+/* top cyan strip */
+
+.shape{
+   
+    position:absolute;
+
+    top:35px;
+    right:59px;
+
+    width:250px;
+    height:40px;
+    z-index: 0;
+    background:#6ffcff;
+
+    clip-path:polygon(
+        35% 0%,
+        100% 0%,
+        93% 100%,
+        25% 100%
+    );
+}
+
+/* bottom dark strip */
+.shape1{
+    position: absolute;
+    width:130px;
+    height:5px;
+    z-index: 0;
+  top:90px;
+    right:80px; 
+    background-color:#303033; 
+     clip-path:polygon(
+        10% 0%,
+        100% 0%,
+        90% 100%,
+        0% 100%
+    );
+}
+.shape3{
+
+      position:absolute;
+
+    top:90px;
+    right:220px;
+
+    width:40px;
+    height:5px;
+
+    background:lightblue;
+     clip-path:polygon(
+        10% 0%,
+        100% 0%,
+        90% 100%,
+        0% 100%
+    );
+
+}
+.container11{
+    background-image: url("./IMAGE/Rectangle\ 64.png");
+    height: 750px;
+    text-align: center;
+    padding-top: 300px;
+}
+section{
+    background-color: black;
+   
+    color: white;
+}
+.djflex{
+    display: flex;
+    gap: 30px;
+     padding: 70px;
+    /* background-color: aqua; */
+}
+.content p{
+    font-size: 23px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+/* CAREER */
+
+.career{
+    display: flex;
+     padding: 70px;
+     gap: 50px;
+}
+ .h h1{
+    padding-left: 70px;
+}
+.high{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.high p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* *****************footer */
+footer {
+  background-color: #111;
+  color:rgb(73, 243, 215);
+  padding: 40px 90px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer img{
+ 
+    width: 100px;
+    height: 100px;
+}
+footer h2{
+  
+   margin-top: 30px;
+}
+.lo{
+    display: flex;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  padding: 8px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 8px 12px;
+  background:rgb(73, 243, 215);
+  /* color: #fff; */
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quick-links ul, .social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links ul li, .social-links ul li {
+  margin: 5px 0;
+}
+
+.quick-links a, .social-links a {
+  /* color: #ccc; */
+  text-decoration: none;
+}
+
+.quick-links a:hover, .social-links a:hover {
+  color: #ff6600;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 14px;
+  /* color: #aaa; */
+}
+.footer-bottom a{
+    display: inline-block;
+    width: 23px;
+   
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid lightblue;
+    padding: 1px;
+}

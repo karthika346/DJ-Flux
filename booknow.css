@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    width:100%;
+    padding:10px 70px;
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    align-items:center;
+    gap:55px;
+    cursor: pointer;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:700;
+}
+
+/* CONTACT DESIGN */
+
+.contact{
+    position:relative;
+   cursor: pointer;
+    padding:10px 42px;
+
+    background:#303033;
+
+    clip-path:polygon(
+        10% 0%,
+        100% 0%,
+        88% 100%,
+        0% 100%
+    );
+
+    overflow:visible;
+    z-index:1;
+}
+
+/* top cyan strip */
+
+.shape{
+   
+    position:absolute;
+
+    top:35px;
+    right:59px;
+
+    width:250px;
+    height:40px;
+    z-index: 0;
+    background:#6ffcff;
+
+    clip-path:polygon(
+        35% 0%,
+        100% 0%,
+        93% 100%,
+        25% 100%
+    );
+}
+
+/* bottom dark strip */
+.shape1{
+    position: absolute;
+    width:130px;
+    height:5px;
+    z-index: 0;
+  top:90px;
+    right:80px; 
+    background-color:#303033; 
+     clip-path:polygon(
+        10% 0%,
+        100% 0%,
+        90% 100%,
+        0% 100%
+    );
+}
+.shape3{
+
+      position:absolute;
+
+    top:90px;
+    right:220px;
+
+    width:40px;
+    height:5px;
+
+    background:lightblue;
+     clip-path:polygon(
+        10% 0%,
+        100% 0%,
+        90% 100%,
+        0% 100%
+    );
+
+}
+.container1{
+    background-image: url("./IMAGE/cyberpunk-dj-illustration\ \(1\)\ 1\ \(2\).png");
+    height:580px;
+    background-color: black;
+    /* background-image: linear-gradient(blue,violet,pink); */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 250px;
+   
+}
+section{
+    background-color:black;
+   padding: 90px 120px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* height: 500px; */
+}
+form{
+    width: 50%;
+}
+.music{
+    width: 400px;
+    height: 400px;
+}
+.push{
+margin-top: 30px;
+
+}
+input::placeholder{
+    color: white !important;
+}
+input{
+    background-color: rgb(156, 150, 150) !important;
+    ;
+}
+select{
+      background-color: rgb(156, 150, 150) !important;
+       color: white !important;
+}
+textarea{
+     background-color:  rgb(156, 150, 150) !important;
+       color: white !important;
+}
+.aq{
+    background-color: aqua;
+    padding: 10px;
+    width: 120px;
+    color: black;
+}
+.add{
+    display: flex;
+    background-color: aqua;
+    /* display: inline-block; */
+    width: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    justify-content:start;
+    /* gap: 90px; */
+    /* padding-left: 50px; */
+}
+.add span{
+   padding-left: 10px;
+}
+.ga{
+    display: flex;
+    gap: 40px;
+}
+
+
+footer {
+  background-color: #111;
+  color:rgb(73, 243, 215);
+  padding: 40px 90px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer img{
+ 
+    width: 100px;
+    height: 100px;
+}
+footer h2{
+  
+   margin-top: 30px;
+}
+.lo{
+    display: flex;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  padding: 8px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 8px 12px;
+  background:rgb(73, 243, 215);
+  /* color: #fff; */
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quick-links ul, .social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links ul li, .social-links ul li {
+  margin: 5px 0;
+}
+
+.quick-links a, .social-links a {
+  /* color: #ccc; */
+  text-decoration: none;
+}
+
+.quick-links a:hover, .social-links a:hover {
+  color: #ff6600;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 14px;
+  /* color: #aaa; */
+}
+.footer-bottom a{
+    display: inline-block;
+    width: 23px;
+   
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid lightblue;
+    padding: 1px;
+}
